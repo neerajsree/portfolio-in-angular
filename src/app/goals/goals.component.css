@@ -1,27 +1,27 @@
+#goal{
+    height: 900px;
+}
 .boddy{
-    color: aliceblue;
+    color:  darkorchid;;
     font-size: 40px;
     text-align: center;
-    color: darkorchid;
+    margin-top: 100px;
+    position:absolute;
+    margin-left: 700px;
 }
 .line1{
-    color: white;
-    margin-top: -30px;
-    margin-right: 830px;
+    color: blue;
+}
 
-}
-.line2{
-    color:white;
-    margin-left: 830px;
-    margin-top: -8px;
-}
+
 
 .goal-container {
     display: flex;
     gap: 20px;
     max-width: 800px;
     margin-left: 380px;
-    margin-top: 175px;
+    margin-top: 220px;
+   
 }
 
 
@@ -55,10 +55,3 @@
     line-height: 1.5;
 }
 
-/* Responsive Styling */
-@media (max-width: 600px) {
-    .goal-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
