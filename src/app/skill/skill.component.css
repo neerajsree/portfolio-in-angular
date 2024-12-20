@@ -1,16 +1,138 @@
-.line1 hr{
-
-    margin-top: -20px;
-    margin-right: 830px;
+#skill {
+    text-align: center;
+    font-size: 40px;
+    color: darkorchid;
+    margin-top: 50px;
+    
 }
-.line2 hr{
-    margin-top:-10px;
-    margin-left: 830px;
-}   
+
 .sskill {
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 50px;
     color: darkorchid;
-    text-align-last:center;
+    text-align: center;
+    position: sticky;
 }
 
+.line1 hr {
+    margin-top: -20px;
+    margin-right: 840px;
+    border: 1px solid darkorchid;
+}
+
+.line2 hr {
+    margin-top: -20px;
+    margin-left: 840px;
+    border: 1px solid darkorchid;
+}
+
+.boddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.skill {
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 140px;
+    width: 140px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkorchid;
+}
+
+.circle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+}
+
+.circle svg {
+    width: 160px;
+    height: 160px;
+    transform: rotate(-90deg);
+}
+
+.circle  {
+    fill: none;
+    stroke-width: 10;
+    stroke-dasharray: 440; 
+    stroke-dashoffset: 440; 
+}
+
+.html-bar {
+    stroke: darkorchid;
+    animation: ani-html 2s linear forwards;
+}
+
+@keyframes ani-html {
+    from {
+        stroke-dashoffset: 440; 
+    }
+    to {
+        stroke-dashoffset: 100; 
+    }
+}
+.css-bar {
+    stroke:darkorchid; 
+    animation: ani-css 2s linear forwards;
+}
+
+@keyframes ani-css {
+    from {
+        stroke-dashoffset: 440; 
+    }
+    to {
+        stroke-dashoffset: 150; 
+    }
+}
+.py-bar {
+    stroke:darkorchid; 
+    animation: ani-py 2s linear forwards;
+}
+
+@keyframes ani-py {
+    from {
+        stroke-dashoffset: 440; 
+    }
+    to {
+        stroke-dashoffset: 130; 
+    }
+}
+.js-bar {
+    stroke:darkorchid;
+    animation: ani-js 2s linear forwards;
+}
+
+@keyframes ani-js {
+    from {
+        stroke-dashoffset: 440; 
+    }
+    to {
+        stroke-dashoffset: 200; 
+    }
+}

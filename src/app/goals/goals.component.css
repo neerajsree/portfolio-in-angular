@@ -5,22 +5,32 @@
     color:  darkorchid;;
     font-size: 40px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: -20px;
     position:absolute;
-    margin-left: 700px;
-}
-.line1{
-    color: blue;
+    margin-left: 690px;
 }
 
+
+
+.line2 hr {
+    margin-top: 200px;
+    margin-left: 850px;
+    border: 1px solid darkorchid;
+}
+.line1 hr{
+    border: 1px solid darkorchid;
+    margin-right: 845px;
+    margin-top: -10px;
+
+}
 
 
 .goal-container {
     display: flex;
     gap: 20px;
     max-width: 800px;
-    margin-left: 380px;
-    margin-top: 220px;
+    margin-left: 400px;
+    margin-top: 100px;
    
 }
 
